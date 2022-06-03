@@ -1,0 +1,41 @@
+body {
+  background-color: #eee;
+}
+
+p {
+  font-family: "Helvetica";
+  font-size: 1rem;
+  color: #222fff;
+  text-align: center;
+  word-spacing: 10px;
+  text-shadow: 3px 2px 5px red;
+}
+
+/* a {
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 1.7;
+  letter-spacing: 3px;
+  text-decoration: overline;  linea arriba
+  text-decoration: line-through;  linea tachada
+  text-decoration: underline;  linea abajo
+} */
+
+a {
+  color: hotpink;
+  text-decoration: none;
+}
+a:link {
+  color: pink;
+}
+a:visited {
+  color: blue;
+}
+a:active {
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: gray;
+}

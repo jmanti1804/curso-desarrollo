@@ -1,0 +1,10 @@
+body {
+  background-color: #eee;
+}
+#invisible {
+  display: none;
+}
+
+span {
+  display: block;
+}
